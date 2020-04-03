@@ -1,0 +1,58 @@
+@font-face {
+	font-family: 'zrnic-rg';
+	src: url('zrnicrg.ttf')
+  }
+
+*{
+	/* font-family: 'Alegreya Sans SC', sans-serif; */
+	font-family: 'zrnic-rg';
+	/* font-weight: bold;
+	font-size: 1rem; */
+}
+body{
+	background: url(bg.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #d2d2d2;
+}
+a{
+	color: #d2d2d2;
+}
+html, body, .container-table {
+    height: 100%;
+}
+.container-table {
+    display: table;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.oppa{
+	background: rgba(3, 3, 3, 0.8);
+}
+
+.logo-text{
+	font-weight: bold;
+	font-size: 2rem;
+	line-height: 2.5rem;
+	float: left;
+	margin-left: 2rem;
+	text-align: left;
+}
+
+.logo{
+	max-width: 90%;
+	width: 420px;
+}
+hr{
+	max-width: 90%;
+	width: 320px;
+	border-style: dashed;
+	margin: 2rem auto;
+	border-color: #d2d2d2;
+}
+.text-indent{
+	text-indent: .5rem;
+}
