@@ -4,10 +4,7 @@
   }
 
 *{
-	/* font-family: 'Alegreya Sans SC', sans-serif; */
 	font-family: 'zrnic-rg';
-	/* font-weight: bold;
-	font-size: 1rem; */
 }
 body{
 	background: url(bg.jpg) no-repeat center;
@@ -44,7 +41,7 @@ html, body, .container-table {
 
 .logo{
 	max-width: 90%;
-	width: 420px;
+	width: 300px;
 }
 hr{
 	max-width: 90%;
